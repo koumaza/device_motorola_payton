@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_payton.mk
+    $(LOCAL_DIR)/ancient_payton.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_payton-user \
-    derp_payton-userdebug \
-    derp_payton-eng
+    ancient_payton-user \
+    ancient_payton-userdebug \
+    ancient_payton-eng

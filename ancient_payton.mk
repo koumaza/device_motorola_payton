@@ -16,7 +16,7 @@
 
 # Inherit some common Superior stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 #Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -69,7 +69,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := payton
-PRODUCT_NAME := derp_payton
+PRODUCT_NAME := ancient_payton
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto X4
 PRODUCT_MANUFACTURER := Motorola
@@ -81,15 +81,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := motorola/payton/payton:8.0.0/OPWS27.57-25-6-10/12:user/release-keys
 
 
+ANCIENT_GAPPS=true
 
 TARGET_GAPPS_ARCH := arm64
 
 
 IS_PHONE := true
-
-# DerpFest OFFICIAL
-
-DERP_BUILDTYPE := Official
 
 
 # Device maintainer
