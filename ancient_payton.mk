@@ -98,3 +98,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
  # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.bservice_enable=true
+
+
+export ANCIENT_OFFICIAL=true
+ export FORCE_OTA=true
