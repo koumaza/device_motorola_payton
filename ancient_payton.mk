@@ -101,4 +101,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 
 export ANCIENT_OFFICIAL=true
- export FORCE_OTA=true
+export FORCE_OTA=true
